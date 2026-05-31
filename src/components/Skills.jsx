@@ -62,7 +62,6 @@ const Skills = () => {
       <div class="container">
         <div class="section-header">
           <h2 class="section-title">Skills &amp; Technologies</h2>
-          <p class="section-subtitle">Focused stack with strong fundamentals. Click a category to highlight it.</p>
         </div>
         
         <div class="row g-4 skills-grid">

@@ -5,6 +5,39 @@ const Projects = () => {
 
   const projectsData = [
     {
+      id: 8,
+      title: 'SahiRasta',
+      category: 'mern',
+      tags: ['MERN Stack', 'AI', 'Google Maps API'],
+      placeholderIcon: 'fa-home',
+      description: "SahiRasta is an AI-driven home search platform developed using the MERN Stack. It goes beyond traditional property listings by evaluating real-world factors like daily commute, living expenses, safety, and nearby amenities to recommend homes that best match a user's lifestyle and preferences.",
+      features: [
+        'AI-powered personalized home recommendations',
+        'Commute time and accessibility analysis',
+        'Neighborhood safety assessment',
+        'Cost-of-living and transportation insights'
+      ],
+      demoLink: 'https://sahirasta-topaz.vercel.app',
+      codeLink: 'https://github.com/sakshicharlewar/SAHIRASTA'
+    },
+    {
+      id: 9,
+      title: 'SpectraX',
+      category: 'ai',
+      tags: ['AI & ML', 'Blockchain', 'Satellite Data'],
+      placeholderIcon: 'fa-satellite',
+      description: 'AI and Blockchain-powered platform for detecting illegal deforestation, mining activities, and environmental changes through real-time monitoring and secure data tracking.',
+      features: [
+        'Real-Time Environmental Monitoring using satellite and geospatial data',
+        'Illegal Deforestation Detection through AI-based image analysis',
+        'Unauthorized Mining Activity Detection in protected and restricted areas',
+        'Machine Learning-Based Change Detection for identifying land-use and environmental changes',
+        'Blockchain-Powered Data Storage for secure and tamper-proof environmental records'
+      ],
+      demoLink: 'https://spectra-xfinal.onrender.com/',
+      codeLink: 'https://github.com/sakshicharlewar/SPECTRA-X'
+    },
+    {
       id: 1,
       title: 'CampusVote',
       category: 'mern',
